@@ -79,5 +79,5 @@ summary(Residance)
 
 #Graph of the Residance
 png("R VS N.png")
-plot(ConcurrentUsers, Residance,type="l",xlab="N (No. Concurrent Users)", ylab = "Residence Time (Seconds)", main = "R VS N")
+plot(ConcurrentUsers, Residance,type="l",xlab="N (No. Concurrent Users)", ylab= "Residence Time (Seconds)", main = "R VS N")
 dev.off()
